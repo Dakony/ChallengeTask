@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="Menu" />
+    <item
+        android:id="@+id/nav_card"
+        android:icon="@drawable/ic_credit_card_black_24dp"
+        android:title="Card" />
+    <item
+        android:id="@+id/nav_Ussd"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="USSD" />
+    <item
+        android:id="@+id/nav_dependant"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="Bank" />
+    <item
+        android:id="@+id/nav_QRPay"
+        android:icon="@drawable/ic_view_array_black_24dp"
+        android:title="QR Pay" />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Phone" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_gesture_black_24dp"
+            android:title="Mobile Bank" />
+    </group>
+
+</menu>
